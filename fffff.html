@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <link rel="icon" href="p2.jfif" type="image/jpeg">
+    </head>
+    <body>
+        <form>
+            <table cellpadding="8">
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" size="50"></td>
+                </tr>
+                <tr>
+                    <td>City of Employment:</td>
+                    <td><input type="text" name="city" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Web server:</td>
+                    <td>
+                        <select name="server">
+                        <option>-- Choose a server --</option>
+                        <option>Server 1</option>
+                        <option>Server 2</option>
+                        <option>Server 3</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td valign="middle">
+                        Please specify<br>
+                        your role:
+                    </td>
+                    <td>
+                        <input type="radio" name="role" value="Admin"> Admin<br>
+                        <input type="radio" name="role" value="Engineer"> Engineer<br>
+                        <input type="radio" name="role" value="Manager"> Manager<br>
+                        <input type="radio" name="role" value="Guest"> Guest
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        Single Sign-on<br>
+                        to the following:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="mail"> Mail<br>
+                        <input type="checkbox" name="payroll"> Payroll<br>
+                        <input type="checkbox" name="selfservice"> Self-service
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
